@@ -4,5 +4,5 @@ public class SmartGradeManagement {
 for (int i = 0; i < n; i++) {
 System.out.print("\nEnter name of Student " + (i + 1) + ": ");
     }
-   
+    }
 }
