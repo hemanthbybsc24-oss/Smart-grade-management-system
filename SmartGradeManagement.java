@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class SmartGradeManagement {
     public static void main(String[] args) {
         Student[] students = new Student[n];
