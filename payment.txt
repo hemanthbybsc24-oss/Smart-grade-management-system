@@ -1,0 +1,20 @@
+interface Payment {
+         void processPayment(double amount);
+}
+
+class UPI implements Payment {
+        public void processPayment(double amount){
+        System.out.println("Paid Rs."+ amount +" via UPI.");
+    }
+}
+
+class Wallet implements Payment {
+      public void processPayment(double amount){
+      System.out.println("Paid Rs."+ amount +" via Wallet.");
+    }
+}
+class CreditCard implements Payment {
+      public void processPayment(double amount){
+      System.out.println("Paid Rs."+ amount +" using CreditCard.");
+    }
+}
