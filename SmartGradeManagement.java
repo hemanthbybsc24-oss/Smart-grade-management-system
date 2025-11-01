@@ -1,4 +1,18 @@
 import java.util.Scanner;
+class student{
+    string name;
+    int[] marks;
+    int total = 0;
+    double average;
+    string grade;
+
+    student (String name, int subjects) {
+        this.name = name;
+        this.marks = new int[subjects];
+    }
+}
+
+
 public class SmartGradeManagement {
     public static void main(String[] args) {
         Student[] students = new Student[n];
