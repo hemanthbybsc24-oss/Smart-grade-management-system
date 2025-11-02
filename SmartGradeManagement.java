@@ -12,12 +12,24 @@ class student{
     }
 }
 
+void assignGrade() {
+  if (average >= 85) grade = "A";
+  else if(average >= 70) grade = "B";
+  else if (average >=50) grade = "C";
+    else grade = "Fail";
+}
+void display Row() {
+    System.out.print("%-15s %-12d %-10.2f %-10s%n", name, total, average, grade);
+  }
+}
 
 public class SmartGradeManagement {
     public static void main(String[] args) {
-        Student[] students = new Student[n];
-        int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("=== Smart Grade Management System ===");
+        System.out.print("Enter number of students: ");
+        int n = sc.nextlnt();
         Student[] students = new Student[n];
 
 for (int i = 0; i < n; i++) {
