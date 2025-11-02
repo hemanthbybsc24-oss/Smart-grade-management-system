@@ -28,6 +28,12 @@ System.out.print("\nEnter name of Student " + (i + 1) + ": ");
     students[i] = new Student(name, sub);
             students[i].inputMarks(sc);
         }
-    }
+
+         System.out.println("\n===== Final Grade Report =====");
+        System.out.printf("%-15s %-12s %-10s %-10s%n", "Name", "Total Marks", "Average", "Grade");
+        for (Student s : students) s.displayRow();
+
+        sc.close();
     }
 }
+    
