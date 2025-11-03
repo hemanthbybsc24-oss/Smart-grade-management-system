@@ -11,7 +11,7 @@ class student{
         this.marks = new int[subjects];
     }
 }
-void inputMarks(Scanner sc)
+void inputMarks(Scanner sc) 
 
 
 void assignGrade() {
