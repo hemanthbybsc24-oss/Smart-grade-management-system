@@ -56,6 +56,8 @@ public class SmartGradeManagement {
 
         System.out.println("\n===== Final Grade Report =====");
         System.out.printf("%-15s %-12s %-10s %-10s%n", "Name", "Total Marks", "Average", "Grade");
+        System.out.println("--------------------------------------------------");
+
         for (Student s : students) s.displayRow();
 
         sc.close();
