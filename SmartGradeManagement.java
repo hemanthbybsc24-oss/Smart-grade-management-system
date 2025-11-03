@@ -11,6 +11,8 @@ class student{
         this.marks = new int[subjects];
     }
 }
+void inputMarks(Scanner sc)
+
 
 void assignGrade() {
   if (average >= 85) grade = "A";
